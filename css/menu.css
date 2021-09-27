@@ -1,0 +1,39 @@
+/* Style the buttons */
+.btn {
+  
+       border: none ;
+
+     background-color:	#DCDCDC;
+   color:black;
+  padding: 8px 25px;
+   outline: 0;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: bold;
+  margin: 4px 2px;
+    margin-bottom: 1px ! important;
+
+  cursor: pointer;
+    border-color: black ;
+
+    border-radius: 12px 12px 0px 0px ;
+  
+  
+  
+}
+
+
+#myDIV
+{
+ background-color:#ff8000;
+margin:15px 7px;
+width:85%;
+}
+
+/* Style the active class, and buttons on mouse-over */
+.active, .btn:hover {
+  background-color:white;
+  color: #ff8000;
+}

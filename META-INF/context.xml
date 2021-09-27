@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+ <Resource name="MDM/Config" auth="Container"
+type="javax.sql.DataSource"
+maxTotal="60"
+minIdle="0"
+maxIdle="10"
+maxWaitMillis="-1"
+driverClassName="org.postgresql.Driver"
+url="jdbc:postgresql://localhost:5433/MDM_Config_Test"
+username="postgres"
+password="Gain@123"
+minEvictableIdleTimeMillis="35000"
+timeBetweenEvictionRunsMillis="55000"
+removeAbandonedOnBorrow="true"
+removeAbandonedOnMaintenance="true"
+removeAbandonedTimeout="120"
+ >
+ </Resource>
+  <Resource name="MDM/ETL" auth="Container"
+type="javax.sql.DataSource"
+maxTotal="60"
+minIdle="0"
+maxIdle="10"
+maxWaitMillis="-1"
+driverClassName="org.postgresql.Driver"
+url="jdbc:postgresql://localhost:5433/MDM_ETL_Test1"
+username="postgres"
+password="Gain@123"
+minEvictableIdleTimeMillis="35000"
+timeBetweenEvictionRunsMillis="55000"
+removeAbandonedOnBorrow="true"
+removeAbandonedOnMaintenance="true"
+removeAbandonedTimeout="120"
+ >
+ </Resource>
+ </Context>
